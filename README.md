@@ -7,5 +7,4 @@ There are three steps of our Similarity-Pooling-Method
 Step1: Calculate evaluation scores of each city.
 Step2: Identify reference cities
 Step3: Pooling reference cities for target cities.
-Step3: 
 
