@@ -13,7 +13,6 @@ The Similarity Pooling Method is designed to analyze industrial CO2 emissions by
 
 
 
-
 ## Jupyter Notebooks
 
 We provide two Jupyter Notebooks to cover the analysis for different sectors:
