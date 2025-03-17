@@ -9,7 +9,7 @@ The Similarity Pooling Method is designed to analyze industrial CO2 emissions by
 
 1. **Calculate evaluation scores for each city.**
 2. **Identify reference cities.**
-3. **Pool reference cities for target cities.**
+3. **Pooling reference cities for target cities.**
 
 <p align="center">
   <img width="416" alt="image" src="https://github.com/user-attachments/assets/5072158b-b69b-4a13-ad53-94049f488989" />
