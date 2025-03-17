@@ -11,6 +11,9 @@ The Similarity Pooling Method is designed to analyze industrial CO2 emissions by
 2. **Identify reference cities.**
 3. **Pool reference cities for target cities.**
 
+<p align="center">
+  <img width="416" alt="image" src="https://github.com/user-attachments/assets/5072158b-b69b-4a13-ad53-94049f488989" />
+</p>
 
 
 ## Jupyter Notebooks
@@ -23,10 +26,4 @@ We provide two Jupyter Notebooks to cover the analysis for different sectors:
 - **Power Sector:**  
   `algorithm_Similarity-Pooling-Method_power.ipynb`
 
-## Repository Structure
 
-```plaintext
-.
-├── algorithm_Similarity-Pooling-Method_manufactureing.ipynb
-├── algorithm_Similarity-Pooling-Method_power.ipynb
-└── README.md
