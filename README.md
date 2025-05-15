@@ -1,5 +1,5 @@
 # Similarity Pooling Method
-**Intra-annual fluctuations in Industrial CO2 emissions during industrial land shrinkage and expansion**
+**Dynamics and Disparities in Daily CO₂ Emissions of Global Cities in Response to Industrial Land Use Shifts**
 
 This repository contains the implementation of the Similarity Pooling Method as presented in our paper *"Intra-annual fluctuations in Industrial CO2 emissions during industrial land shrinkage and expansion"*.
 
