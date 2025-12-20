@@ -37,7 +37,7 @@ To ensure a fair evaluation and reduce the risk of data leakage, we split the da
    We run `RandomizedSearchCV` with 5-fold cross-validation (`cv = 5`) on the training split.
    The held-out test set is not used during cross-validation or hyperparameter selection.
 
-4. **Refit the model on the full training split using the best hyperparameters.**  
+4. **Refit the model using the best hyperparameters.**  
    After selecting the best hyperparameters, the model is retrained on training set.
 
 5. **Evaluate on the held-out test set.**  
