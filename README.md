@@ -34,12 +34,13 @@ To ensure a fair evaluation and reduce the risk of data leakage, we split the da
    A fixed random seed for reproducibility (`random_state = 42`)
 
 2. **Choose hyperparameters using cross-validation.**  
-   We run `RandomizedSearchCV` with 5-fold cross-validation (`cv = 5`). 
+   We run `RandomizedSearchCV` with 5-fold cross-validation (`cv = 5`) on the training split.
+   The held-out test set is not used during cross-validation or hyperparameter selection.
 
-3. **Refit the model on the full training split using the best hyperparameters.**  
+4. **Refit the model on the full training split using the best hyperparameters.**  
    After selecting the best hyperparameters, the model is retrained on training set.
 
-4. **Evaluate on the held-out test set.**  
+5. **Evaluate on the held-out test set.**  
    We assess model performance on the test split and report evaluation metrics (e.g., MSE, MAE, and R²).  
-   The test set is never used during training or hyperparameter choose.
+   The test set is never used during training or hyperparameter selection.
    
