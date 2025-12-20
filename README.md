@@ -24,7 +24,7 @@ We provide two Jupyter Notebooks to cover the analysis for different sectors:
   `algorithm_Similarity-Pooling-Method_power.ipynb`
 
 
-## Data Splitting and Model Selection for the random forest model in the Similarity Pooling Method
+## Data Splitting and hyperparameters Selection for the random forest model in the Similarity Pooling Method
 
 To ensure a fair evaluation and reduce the risk of data leakage, we split the dataset and perform model selection as follows:
 
