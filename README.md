@@ -30,11 +30,11 @@ To ensure a fair evaluation and reduce the risk of data leakage, we split the da
 
 1. **Randomly split the dataset into training and test sets.**  
    We create an independent test set:
-   70% of samples for training and 30% for testing (`test_size = 0.3`)
+   70% of samples for training and 30% for testing (`test_size = 0.3`)  
    A fixed random seed for reproducibility (`random_state = 42`)
 
 2. **Choose hyperparameters using cross-validation.**  
-   We run `RandomizedSearchCV` with 5-fold cross-validation (`cv = 5`) on the training split.
+   We run `RandomizedSearchCV` with 5-fold cross-validation (`cv = 5`) on the training split.  
    The held-out test set is not used during cross-validation or hyperparameter selection.
 
 4. **Refit the model using the best hyperparameters.**  
